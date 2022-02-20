@@ -1,9 +1,9 @@
-const dataTwo = [
+export const dataTwo = [
     {
-        imageTwo: "/image/page 1",
+        imageTwo: "/image/page1.jpg",
     },
     {
-        imsgeTwo: "/image/page 2",
+        imageTwo: "/image/page2.jpg",
     },
 
 ]

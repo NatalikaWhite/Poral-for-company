@@ -13,7 +13,7 @@ function About(){
         <div className="text">
             <p> 
                 {showText ? textik: textik.substring(0,200) + "..."}
-            <button onClick={() => setShowText (!showText)}> {textik? "show less" : "show more"} </button>
+            <button className="six" onClick={() => setShowText (!showText)}> {textik? "show more" : "show less"} </button>
             </p>
         </div>
 

@@ -20,6 +20,7 @@ function App() {
         <Link to = "/about" className="link">О компании</Link>
         </nav>
         <Routes>
+          <Route path="/" element={<News/>}/>
           <Route path="/news" element={<News/>}/>
             <Route path="stuff" element={<Stuff/>}/>
             <Route path="about" element={<About/>}/>

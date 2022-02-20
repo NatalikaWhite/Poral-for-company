@@ -43,6 +43,22 @@ nav{
   font-family: 'Roboto Mono', monospace;
 }
 
+.four{
+  display: flex;
+  justify-content: center;
+}
+
+.five{
+  display: flex;
+  align-items: center;
+}
+
+.six{
+  background-color: #DEFF3D;
+  padding: 10px;
+  border: none;
+}
+
 button {
   margin: 10px;
   }

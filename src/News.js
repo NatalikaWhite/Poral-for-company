@@ -16,26 +16,28 @@ const beforNews = () =>{
     }))
 }
 
-const nextNews = () =>{
+    const nextNews = () =>{
     setNews((news=>{
     news++;
     if(news>dataTwo.length-1){
-        news=0;
-    }
+    news=0;
+}
     return news;
-}))
+    }))
 }
 
     return(
-        <div>
-    <div className="">
-    <img src={imageTwo} width="700px"/>
-    </div>
-    <div>
-    <button onClick={beforNews}>Назад</button>
-    <button onClick={nextNews}>Вперед</button>
-    </div>
-    </div>
+        <div className="four">
+            <div className="five">
+                <button className="green" onClick={beforNews}>Назад</button>
+            </div>
+            <div className="cont">
+                <img src={imageTwo} width="700px" hight="300px"/>
+            </div>
+            <div className="five">
+                <button className="green" onClick={nextNews}>Вперед</button>
+            </div>
+        </div>
     )
 }
 
