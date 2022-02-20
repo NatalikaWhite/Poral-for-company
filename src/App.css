@@ -60,3 +60,14 @@ button {
   justify-content: center;
   margin-top: 50px;
 }
+
+.text{
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.bigText{
+  background-color: #E3FCBB;
+  font-family: 'Roboto Mono', monospace;
+}
