@@ -46,6 +46,7 @@ nav{
 .four{
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .five{
@@ -86,4 +87,23 @@ button {
 .bigText{
   background-color: #E3FCBB;
   font-family: 'Roboto Mono', monospace;
+}
+
+@media all and (max-width: 800px){
+  img{
+    width: 350;
+  }
+
+  .four{
+    flex-direction: column;
+  }
+
+  .five{
+    margin-top: 30px;
+    margin-left: 300px;
+  }
+}
+
+@media all and (max-width: 500px){
+  
 }
