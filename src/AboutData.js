@@ -5,7 +5,7 @@ function AboutData({aboutStuff}){
                 const{image, call, department}=element;
                 return(
                     <div className="one">
-                        <img src={image} width="250px" height="370px" alt="picture"/>
+                        <img src={image} width="250px" height="370px" alt="pict"/>
                         <div className="two">
                         <p>{call}</p>
                         <p>{department}</p>

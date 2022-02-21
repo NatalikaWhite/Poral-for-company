@@ -75,6 +75,7 @@ button {
 .cont {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   margin-top: 50px;
 }
 
@@ -106,4 +107,12 @@ button {
 
 @media all and (max-width: 500px){
   
+  .five{
+    margin-top: 30px;
+    margin-left: 150px;
+  }
+
+  img{
+    width: 200;
+  }
 }

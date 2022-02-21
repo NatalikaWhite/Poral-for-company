@@ -1,4 +1,3 @@
-import react from 'react';
 import Button from './Button';
 import { data } from './data';
 import { useState } from 'react';
@@ -16,7 +15,9 @@ import AboutData from './AboutData';
     
     return (
         <div>
+            <div className="seven">
             <Button filterStuff={chosenStuff}/>
+            </div>
             <AboutData aboutStuff={stuff}/>
         </div>
     )

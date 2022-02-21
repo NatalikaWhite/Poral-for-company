@@ -32,7 +32,7 @@ const beforNews = () =>{
                 <button className="green" onClick={beforNews}>Назад</button>
             </div>
             <div className="cont">
-                <img src={imageTwo} width="700px" hight="300px"/>
+                <img src={imageTwo} alt="pict" width="700px" hight="300px"/>
             </div>
             <div className="five">
                 <button className="green" onClick={nextNews}>Вперед</button>

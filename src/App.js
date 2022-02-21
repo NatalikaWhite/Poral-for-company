@@ -1,4 +1,3 @@
-import react from 'react';
 import './App.css';
 //import { data } from './data';
 import News from './News';
